@@ -15,6 +15,17 @@
 		291EE1951D907A1700C65055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291EE1931D907A1700C65055 /* LaunchScreen.storyboard */; };
 		291EE1A01D907A1700C65055 /* NotieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291EE19F1D907A1700C65055 /* NotieTests.m */; };
 		291EE1AB1D907A1700C65055 /* NotieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291EE1AA1D907A1700C65055 /* NotieUITests.m */; };
+		291EE1BA1D907B3000C65055 /* DecideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291EE1B91D907B3000C65055 /* DecideViewController.m */; };
+		29DAB4A21D94166800AE0178 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4A11D94166800AE0178 /* LoginViewController.m */; };
+		29DAB4A51D94167200AE0178 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4A41D94167200AE0178 /* RegisterViewController.m */; };
+		29DAB4A81D9417B400AE0178 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4A71D9417B400AE0178 /* InfoViewController.m */; };
+		29DAB4AD1D94267C00AE0178 /* A0SimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4AA1D94267C00AE0178 /* A0SimpleKeychain.m */; };
+		29DAB4AE1D94267C00AE0178 /* A0SimpleKeychain+KeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4AC1D94267C00AE0178 /* A0SimpleKeychain+KeyPair.m */; };
+		29DAB4BA1D9452E200AE0178 /* MLInputDodger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29DAB4B11D9452E200AE0178 /* MLInputDodger.bundle */; };
+		29DAB4BB1D9452E200AE0178 /* MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4B31D9452E200AE0178 /* MLInputDodger.m */; };
+		29DAB4BC1D9452E200AE0178 /* MLInputDodgerRetractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4B51D9452E200AE0178 /* MLInputDodgerRetractView.m */; };
+		29DAB4BD1D9452E200AE0178 /* UIScrollView+MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4B71D9452E200AE0178 /* UIScrollView+MLInputDodger.m */; };
+		29DAB4BE1D9452E200AE0178 /* UIView+MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAB4B91D9452E200AE0178 /* UIView+MLInputDodger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,28 @@
 		291EE1A61D907A1700C65055 /* NotieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291EE1AA1D907A1700C65055 /* NotieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotieUITests.m; sourceTree = "<group>"; };
 		291EE1AC1D907A1700C65055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291EE1B81D907B3000C65055 /* DecideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecideViewController.h; sourceTree = "<group>"; };
+		291EE1B91D907B3000C65055 /* DecideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecideViewController.m; sourceTree = "<group>"; };
+		29DAB4A01D94166800AE0178 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		29DAB4A11D94166800AE0178 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		29DAB4A31D94167200AE0178 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		29DAB4A41D94167200AE0178 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		29DAB4A61D9417B400AE0178 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		29DAB4A71D9417B400AE0178 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		29DAB4A91D94267C00AE0178 /* A0SimpleKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A0SimpleKeychain.h; sourceTree = "<group>"; };
+		29DAB4AA1D94267C00AE0178 /* A0SimpleKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A0SimpleKeychain.m; sourceTree = "<group>"; };
+		29DAB4AB1D94267C00AE0178 /* A0SimpleKeychain+KeyPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "A0SimpleKeychain+KeyPair.h"; sourceTree = "<group>"; };
+		29DAB4AC1D94267C00AE0178 /* A0SimpleKeychain+KeyPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "A0SimpleKeychain+KeyPair.m"; sourceTree = "<group>"; };
+		29DAB4B01D94296800AE0178 /* Notie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notie.entitlements; sourceTree = "<group>"; };
+		29DAB4B11D9452E200AE0178 /* MLInputDodger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLInputDodger.bundle; sourceTree = "<group>"; };
+		29DAB4B21D9452E200AE0178 /* MLInputDodger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLInputDodger.h; sourceTree = "<group>"; };
+		29DAB4B31D9452E200AE0178 /* MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLInputDodger.m; sourceTree = "<group>"; };
+		29DAB4B41D9452E200AE0178 /* MLInputDodgerRetractView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLInputDodgerRetractView.h; sourceTree = "<group>"; };
+		29DAB4B51D9452E200AE0178 /* MLInputDodgerRetractView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLInputDodgerRetractView.m; sourceTree = "<group>"; };
+		29DAB4B61D9452E200AE0178 /* UIScrollView+MLInputDodger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MLInputDodger.h"; sourceTree = "<group>"; };
+		29DAB4B71D9452E200AE0178 /* UIScrollView+MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MLInputDodger.m"; sourceTree = "<group>"; };
+		29DAB4B81D9452E200AE0178 /* UIView+MLInputDodger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLInputDodger.h"; sourceTree = "<group>"; };
+		29DAB4B91D9452E200AE0178 /* UIView+MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLInputDodger.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +134,21 @@
 		291EE1841D907A1700C65055 /* Notie */ = {
 			isa = PBXGroup;
 			children = (
+				29DAB4B01D94296800AE0178 /* Notie.entitlements */,
 				291EE1881D907A1700C65055 /* AppDelegate.h */,
 				291EE1891D907A1700C65055 /* AppDelegate.m */,
 				291EE18B1D907A1700C65055 /* ViewController.h */,
 				291EE18C1D907A1700C65055 /* ViewController.m */,
+				291EE1B81D907B3000C65055 /* DecideViewController.h */,
+				291EE1B91D907B3000C65055 /* DecideViewController.m */,
+				29DAB4A01D94166800AE0178 /* LoginViewController.h */,
+				29DAB4A11D94166800AE0178 /* LoginViewController.m */,
+				29DAB4A31D94167200AE0178 /* RegisterViewController.h */,
+				29DAB4A41D94167200AE0178 /* RegisterViewController.m */,
+				29DAB4A61D9417B400AE0178 /* InfoViewController.h */,
+				29DAB4A71D9417B400AE0178 /* InfoViewController.m */,
+				29DAB4BF1D9452E800AE0178 /* MLInputDodger */,
+				29DAB4AF1D94268200AE0178 /* KeychainWrapper */,
 				291EE18E1D907A1700C65055 /* Main.storyboard */,
 				291EE1911D907A1700C65055 /* Assets.xcassets */,
 				291EE1931D907A1700C65055 /* LaunchScreen.storyboard */,
@@ -138,6 +182,33 @@
 				291EE1AC1D907A1700C65055 /* Info.plist */,
 			);
 			path = NotieUITests;
+			sourceTree = "<group>";
+		};
+		29DAB4AF1D94268200AE0178 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				29DAB4A91D94267C00AE0178 /* A0SimpleKeychain.h */,
+				29DAB4AA1D94267C00AE0178 /* A0SimpleKeychain.m */,
+				29DAB4AB1D94267C00AE0178 /* A0SimpleKeychain+KeyPair.h */,
+				29DAB4AC1D94267C00AE0178 /* A0SimpleKeychain+KeyPair.m */,
+			);
+			name = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		29DAB4BF1D9452E800AE0178 /* MLInputDodger */ = {
+			isa = PBXGroup;
+			children = (
+				29DAB4B11D9452E200AE0178 /* MLInputDodger.bundle */,
+				29DAB4B21D9452E200AE0178 /* MLInputDodger.h */,
+				29DAB4B31D9452E200AE0178 /* MLInputDodger.m */,
+				29DAB4B41D9452E200AE0178 /* MLInputDodgerRetractView.h */,
+				29DAB4B51D9452E200AE0178 /* MLInputDodgerRetractView.m */,
+				29DAB4B61D9452E200AE0178 /* UIScrollView+MLInputDodger.h */,
+				29DAB4B71D9452E200AE0178 /* UIScrollView+MLInputDodger.m */,
+				29DAB4B81D9452E200AE0178 /* UIView+MLInputDodger.h */,
+				29DAB4B91D9452E200AE0178 /* UIView+MLInputDodger.m */,
+			);
+			name = MLInputDodger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +278,12 @@
 				TargetAttributes = {
 					291EE1811D907A1700C65055 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R32459M72F;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					291EE19A1D907A1700C65055 = {
 						CreatedOnToolsVersion = 7.3;
@@ -245,6 +322,7 @@
 			files = (
 				291EE1951D907A1700C65055 /* LaunchScreen.storyboard in Resources */,
 				291EE1921D907A1700C65055 /* Assets.xcassets in Resources */,
+				29DAB4BA1D9452E200AE0178 /* MLInputDodger.bundle in Resources */,
 				291EE1901D907A1700C65055 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +349,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				291EE18D1D907A1700C65055 /* ViewController.m in Sources */,
+				29DAB4BC1D9452E200AE0178 /* MLInputDodgerRetractView.m in Sources */,
+				29DAB4AE1D94267C00AE0178 /* A0SimpleKeychain+KeyPair.m in Sources */,
+				29DAB4A51D94167200AE0178 /* RegisterViewController.m in Sources */,
+				29DAB4BD1D9452E200AE0178 /* UIScrollView+MLInputDodger.m in Sources */,
 				291EE18A1D907A1700C65055 /* AppDelegate.m in Sources */,
+				29DAB4BB1D9452E200AE0178 /* MLInputDodger.m in Sources */,
+				291EE1BA1D907B3000C65055 /* DecideViewController.m in Sources */,
+				29DAB4AD1D94267C00AE0178 /* A0SimpleKeychain.m in Sources */,
 				291EE1871D907A1700C65055 /* main.m in Sources */,
+				29DAB4A81D9417B400AE0178 /* InfoViewController.m in Sources */,
+				29DAB4BE1D9452E200AE0178 /* UIView+MLInputDodger.m in Sources */,
+				29DAB4A21D94166800AE0178 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +501,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Notie/Notie.entitlements;
+				DEVELOPMENT_TEAM = R32459M72F;
 				INFOPLIST_FILE = Notie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.Notie;
@@ -424,6 +514,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Notie/Notie.entitlements;
+				DEVELOPMENT_TEAM = R32459M72F;
 				INFOPLIST_FILE = Notie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.Notie;
@@ -496,6 +588,7 @@
 				291EE1B11D907A1700C65055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		291EE1B21D907A1700C65055 /* Build configuration list for PBXNativeTarget "NotieTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +597,7 @@
 				291EE1B41D907A1700C65055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		291EE1B51D907A1700C65055 /* Build configuration list for PBXNativeTarget "NotieUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +606,7 @@
 				291EE1B71D907A1700C65055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
